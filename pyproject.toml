@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "torchserve-example"
+version = "0.1.0"
+description = ""
+authors = ["なるみ <toucans-cutouts0f@icloud.com>"]
+readme = "README.md"
+packages = [{include = "torchserve_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+torchserve = "^0.8.2"
+torch-model-archiver = "^0.8.2"
+torch-workflow-archiver = "^0.2.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
